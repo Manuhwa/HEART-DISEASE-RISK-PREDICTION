@@ -1,0 +1,31 @@
+{
+  "n_rows": 1025,
+  "n_features": 13,
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "random_state": 42,
+  "cv_roc_auc_mean": 0.9155520689288374,
+  "cv_roc_auc_std": 0.014878755603445716,
+  "cv_f1_mean": 0.849962410968461,
+  "cv_f1_std": 0.017684746880503692,
+  "test_metrics": {
+    "accuracy": 0.8097560975609757,
+    "precision": 0.7619047619047619,
+    "recall": 0.9142857142857143,
+    "f1_score": 0.8311688311688312,
+    "roc_auc": 0.9299999999999999
+  }
+}
